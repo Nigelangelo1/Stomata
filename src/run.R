@@ -7,7 +7,7 @@ dir.create(file.path("./data"), showWarnings = FALSE)
 dir.create(file.path("./result"), showWarnings = FALSE)
 # read files-------------------------------------------------------------------------
 # read xml, calculate row class,
-# slope and generte checking graph
+# slope and generate checking graph
 system.time(
   source("src/modules/read_xml.R")
 )
